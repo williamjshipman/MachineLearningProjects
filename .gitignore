@@ -2,3 +2,6 @@
 .data
 .ipynb_checkpoints
 *.RData
+*.csv
+*.hdf
+*/dask-worker-space/*
