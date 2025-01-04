@@ -38,7 +38,8 @@ RUN /bin/bash -c "/opt/conda/bin/conda create \
         pytorch::pytorch=2.5.1 \
         scikit-learn-extra \
         plotly \
-        bokeh && \
+        bokeh \
+        pytables && \
     conda install -c conda-forge jupyterlab && \
     conda clean -t && \
     source activate base && \

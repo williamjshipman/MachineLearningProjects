@@ -8,7 +8,7 @@ This repository contains a collection of personal machine learning projects.
 
 Create a new conda environment using the following (new version of environment):
 
-    conda create -n ml -c conda-forge -c nvidia python=3 xlrd seaborn scikit-learn=1.6 scikit-image tensorboard numexpr statsmodels scipy matplotlib joblib ipykernel numpy pandas rpy2 tqdm nb_conda_kernels dask dask-ml dask-xgboost pyreadr gpy gpyopt sktime onnx skl2onnx cachey fastparquet xgboost xarray datashader numba pytorch::pytorch=2.5.1 scikit-learn-extra plotly bokeh
+    conda create -n ml -c conda-forge -c nvidia python=3 xlrd seaborn scikit-learn=1.6 scikit-image tensorboard numexpr statsmodels scipy matplotlib joblib ipykernel numpy pandas rpy2 tqdm nb_conda_kernels dask dask-ml dask-xgboost pyreadr gpy gpyopt sktime onnx skl2onnx cachey fastparquet xgboost xarray datashader numba pytorch::pytorch=2.5.1 scikit-learn-extra plotly bokeh pytables
 
 Create a new conda environment using the following (old version of environment):
 
