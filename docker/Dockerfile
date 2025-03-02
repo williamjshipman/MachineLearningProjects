@@ -39,7 +39,9 @@ RUN /bin/bash -c "/opt/conda/bin/conda create \
         scikit-learn-extra \
         plotly \
         bokeh \
-        pytables && \
+        pytables \
+        hvplot \
+        skorch && \
     conda install -c conda-forge jupyterlab && \
     conda clean -t && \
     source activate base && \
